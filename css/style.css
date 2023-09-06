@@ -40,7 +40,7 @@ body {
     position: absolute;
     background-color: white;
     padding: 0px 10px;
-    color: red;
+    color: rgba(0, 0, 0, 0.5);
     font-size: 30px;
 }
 
@@ -94,7 +94,10 @@ body {
    z-index: 0;
 }
 
-
+.heart-icon:hover {
+    color: red;
+ }
+ 
 /*
 .card__image .discount-icon {
     left: 0%;
