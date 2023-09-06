@@ -71,10 +71,61 @@ body {
     width: 100%;
 }
 
+ul, ol, menu {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+/*Header*/
+
+.header-nav {
+    background-color: #ff6900;
+    padding: 10px 0px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+img.logo {
+    max-height: 30px;
+}
+
+.header-nav__gender-menu,
+.header-nav__icon-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav .row .col {
+    padding: 10px;
+}
+
+.gender-menu__item  > a,
+.icon-menu__item  > a {
+    display: block;
+    padding: 0 10px;
+    line-height: 20px;
+}
+
+.icon-menu__item {
+    font-size: 50px;
+    width: 40px;
+}
+
 /*Main content*/ 
 
 .main-section {
-    padding: 40px 0px;
+    padding: 100px 0px;
 }
 
 .main-section [class^="col-"] {
