@@ -38,7 +38,8 @@ img {
 }
 
 body {
-    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 .heart-icon {
@@ -54,9 +55,8 @@ body {
     display: inline-block;
     background-color: red;
     color: white;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 0px 10px;
+    line-height: 24px;
+    padding: 0px 12px;
     margin-right: 10px;
 }
 
@@ -65,9 +65,8 @@ body {
     display: inline-block;
     background-color: green; 
     color: white;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 0px 10px;
+    line-height: 24px;
+    padding: 0px 12px;
     margin-right: 10px;
 }
 
@@ -167,6 +166,20 @@ img.logo {
     color: red;
  }
  
+ .name-item {
+    font-size: 18px;
+    font-weight: 700;
+ }
+
+ .sale-price {
+    color: red;
+    font-weight: 700;
+ }
+
+ .origine-price {
+    text-decoration: line-through;
+ }
+
 /*
 .card__image .discount-icon {
     left: 0%;
