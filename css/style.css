@@ -21,3 +21,21 @@
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
+
+/* Debug */
+
+.debug .container {
+    border: 3px solid black;
+    padding: 30px;
+}
+
+.debug .row {
+    border: 2px solid blue;
+    padding: 20px;
+}
+
+.debug .row [class^='col-'] {
+    border: 1px dashed green;
+    min-height: 300px;
+    padding: 10px;
+}
