@@ -26,6 +26,12 @@ img {
     max-width: 100%;
 }
 
+.image-back {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+}
+
 body {
     font-size: 14px;
 }
@@ -84,15 +90,22 @@ body {
     bottom: 10%;
 }
 
+.card__image:hover .image-back {
+   z-index: 0;
+}
+
+
+/*
 .card__image .discount-icon {
-    /*left: 0%;
-    bottom: 8%;*/
+    left: 0%;
+    bottom: 8%;
 }
 
 .card__image .sustainability-icon {
-   /* left: 18%;
-    bottom: 8%;*/
+    left: 18%;
+    bottom: 8%;
 }
+*/
 
 /* Debug */
 
