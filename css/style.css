@@ -28,6 +28,10 @@ img {
 
 /*Main content*/ 
 
+.main-section [class^="col-"] {
+    padding: 10px 10px 30px 10px;
+}
+
 /* Debug */
 
 .debug .container {
