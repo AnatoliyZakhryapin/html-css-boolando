@@ -22,6 +22,10 @@
     flex-basis: calc((100% / 12) * 4);
 }
 
+img {
+    max-width: 100%;
+}
+
 /* Debug */
 
 .debug .container {
