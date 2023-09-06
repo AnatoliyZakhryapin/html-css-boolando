@@ -5,3 +5,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Fixed value */
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
